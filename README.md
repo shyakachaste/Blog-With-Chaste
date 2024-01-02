@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChasteBlog
+
+Discover the coding universe with Shyaka Chaste, a full stack developer. Learn cool tricks, explore hands-on project tutorials, and boost your coding skills. 🚀💻
+
+![post-blog](https://github.com/shyakachaste/Blog-With-Chaste/assets/121980393/40c74d09-c67d-4505-bea7-7ca042bdb1b1) (https://www.shyakachaste.tech/)
+
+## About the Project
+
+This is my official blog.
+
+### Built With
+
+- Typescript
+- Next js
+- React js
+- Tailwind CSS
+- Supabase
 
 ## Getting Started
 
@@ -34,3 +50,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
