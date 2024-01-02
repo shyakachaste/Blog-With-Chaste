@@ -4,31 +4,31 @@ import React from 'react'
 import BlogContent from './components/BlogContent';
 
 //
-// export async function generateStaticParams() {
-//   const { data: blog } = await fetch(process.env.SITE_URL + "/api/blog?id=" + "*").then((res)=>res.json());
-//   return blog;
-// }
+export async function generateStaticParams() {
+  const { data: blog } = await fetch(process.env.SITE_URL + "/api/blog?id=" + "*").then((res)=>res.json());
+  return blog;
+}
 
-// export async function generateMetadata({params}:{params:{id:string}}) {
-//   const { data: blog } = await fetch(process.env.SITE_URL + "/api/blog?id=" + params.id).then((res)=>res.json()) as {data:IBlog};
-//   return {
+export async function generateMetadata({params}:{params:{id:string}}) {
+  const { data: blog } = await fetch(process.env.SITE_URL + "/api/blog?id=" + params.id).then((res)=>res.json()) as {data:IBlog};
+  return {
 
-//     title:blog?.title,
-//     authors:{
-//       name:"Shyaka Chaste"
-//     },
+    title:blog?.title,
+    authors:{
+      name:"Shyaka Chaste"
+    },
 
-//     openGraph:{
-//       title:blog?.title,
-//       url:process.env.SITE_URL+"/blog/"+params.id,
-//       siteName:"Shyaka Chaste blog",
-//       images:blog?.image_url,
-//       type:"website"
-//     },
+    openGraph:{
+      title:blog?.title,
+      url:process.env.SITE_URL+"/blog/"+params.id,
+      siteName:"Shyaka Chaste blog",
+      images:blog?.image_url,
+      type:"website"
+    },
 
-//     keywords:["Shyaka Chaste","Shyaka Chaste blog","Chaste blog","web development","coding blog"],
-//   }
-// }
+    keywords:["Shyaka Chaste","Shyaka Chaste blog","Chaste blog","web development","coding blog"],
+  }
+}
 
 
 //
