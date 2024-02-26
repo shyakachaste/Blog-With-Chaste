@@ -22,7 +22,7 @@ export default function Footer() {
                         <Link href="https://github.com/shyakachaste" target="_blank"><GitHubLogoIcon className="w-5 h-5" /></Link>
                         <Link href="https://www.linkedin.com/in/shyaka-chaste-982a32272/" target="_blank"><LinkedInLogoIcon className="w-5 h-5" /></Link>
                         <Link href="https://www.instagram.com/iamchaste.rw/" target="_blank"><InstagramLogoIcon className="w-5 h-5" /></Link>
-                        <Link href="https://www.youtube.com/@lifeofchaste" target="_blank"><YoutubeIcon className="w-5 h-5" /></Link>
+                        <Link href="https://www.youtube.com/@iamchastevlog" target="_blank"><YoutubeIcon className="w-5 h-5" /></Link>
 					</div>
 				</div>
 
